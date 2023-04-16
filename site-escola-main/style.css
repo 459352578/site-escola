@@ -1,0 +1,133 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    /* border: 5px solid red; */
+}
+
+
+body {
+    background-color: #081b29;
+    color: #ededed;
+    /* border: 5px solid red; */
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
+   /* border: 5px solid red; */
+
+}
+
+.home {
+    height: 100vh;
+    background: url(../img/Formula-amico\ 1.png) no-repeat;
+    background-position: 1000px;
+    background-size: 340px;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    
+}
+
+.apresentacao {
+    background: transparent;
+    max-width: 600px;
+    /* border: 5px solid red; */
+
+}
+
+.apresentacao h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 0.9;
+    font-family: 'Cinzel', serif;
+    font-family: 'Source Code Pro', monospace;
+    /* border: 5px solid red; */
+
+}
+
+.apresentacao h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+    font-family: 'Cinzel', serif;
+    font-family: 'Source Code Pro', monospace;
+    /* border: 5px solid red; */
+
+}
+
+.apresentacao p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Source Code Pro', monospace;
+    /* border: 5px solid red; */
+
+}
+
+.apresentacao .bt-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    background: transparent;
+    /* border: 5px solid red; */
+   
+
+}
+
+.bt-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* border: 5px solid red; */
+
+}
+
+.bt-box a:nth-child(2) {
+    background: transparent;
+    color: #00abf0;
+   /* border: 5px solid red; */
+
+}
+
+.bt-box a:hover {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 105%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+   /* border: 5px solid red; */
+}
+
